@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  margin: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.logo span {
+  color: #279459;
+  font-weight: 800;
+}
+
+.nav-items {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+  display: flex;
+  gap: 1rem;
+}
+
+.subscribe-button {
+  color: aliceblue;
+  background-color: #279459;
+  border-radius: 18px;
+  border: none;
+  height: 30px;
+  width: 135px;
+  top: 29px;
+  left: 990px;
+}
