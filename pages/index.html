@@ -61,7 +61,7 @@
           <div class="service-text">
             <h3>Lorem ipsum dolor sit amet consectetur.</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>LEARN MORE</button>
+            <button class="subscribe-button">LEARN MORE</button>
           </div>
         </div>
 
@@ -74,7 +74,7 @@
           <div class="service-text">
             <h3>Lorem ipsum dolor sit amet consectetur.</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>LEARN MORE</button>
+            <button class="subscribe-button">LEARN MORE</button>
           </div>
         </div>
 
@@ -82,12 +82,11 @@
           <img
             class="service-image"
             src="/assets/images/krzysztof-hepner-V7Q0Oh3Az-c-unsplash.jpg"
-            alt=""
-          />
+            alt="" />
           <div class="service-text">
             <h3>Lorem ipsum dolor sit amet consectetur.</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>LEARN MORE</button>
+            <button class="subscribe-button">LEARN MORE</button>
           </div>
         </div>
       </div>
@@ -95,44 +94,106 @@
 
     <!-- this is portfollio section -->
 
-    <section>
+    <section class="portfolio-parent">
       <h1>PORTFOLIO</h1>
-        <div>
+      <div class="portfolio-wrapper">
+        <div class="portfolio">
+          <h3>Lorem ipsum dolor sit.</h3>
           <div>
-            <h3>Lorem ipsum dolor sit.</h3>
-            <div>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <button>VIEW PROJECTS</button>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
-
-          <div>
-            <img
-              width="300"
-              src="/assets/images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg"
-              alt=""
-            />
-          </div>
+          <button class="subscribe-button">VIEW PROJECTS</button>
         </div>
 
-        <div>
-          <div>
-            <h3>Lorem ipsum dolor sit.</h3>
-            <div>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <button>VIEW PROJECTS</button>
-          </div>
+        <div class="portfolio-image">
+          <img
+            width="300"
+            src="/assets/images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg"
+            alt=""
+          />
+        </div>
+      </div>
 
+      <div class="portfolio-wrapper">
+        <div class="portfolio-image">
+          <img
+            width="300"
+            src="/assets/images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg"
+            alt=""
+          />
+        </div>
+        <div class="portfolio">
+          <h3>Lorem ipsum dolor sit.</h3>
           <div>
-            <img
-              width="300"
-              src="/assets/images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg"
-              alt=""
-            />
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
+          <button class="subscribe-button">VIEW PROJECTS</button>
         </div>
       </div>
     </section>
+
+    <section class="Contact-parent">
+      <h1>Contact</h1>
+      <div class="contact">
+        <form action="">
+          <label for="Name">Name</label>
+          <input type="text" placeholder="Enter Name...." />
+          <label for="Email">Email</label>
+          <input type="text" placeholder="Enter Email..." />
+          <label for="Message">Message</label>
+          <textarea placeholder="Enter Message" name="Messages"></textarea>
+          <button class="Sumbit-button">Sumbit</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+      <section>
+        <div class="footer-wrapper">
+          <div class="footer-contents test-border">
+            <h1>RealEstate</h1>
+            <p>
+              Lorem ipsum dolor sit amet <br />consectetur adipisicing elit.
+              Natus,
+            </p>
+
+            <div class="icons-wrapper">
+              <img
+                class="footer-icons"
+                src="/assets/icons/facebook.png"
+                alt="facebook"
+              />
+              <img
+                class="footer-icons"
+                src="/assets/icons/instagram.png"
+                alt="instagram"
+              />
+              <img
+                class="footer-icons"
+                src="/assets/icons/twitter.png"
+                alt="twitter"
+              />
+            </div>
+          </div>
+
+          <div class="footer-services test-border">
+            <h1>
+              services
+            </h1>
+            <ul>
+              <li>We Design</li>
+              <li>We Construct</li>
+              <li>We Develop</li>
+              <li>We Consult</li>
+            </ul>
+          </div>
+          <div class="footer-link test-border"></div>
+        </div>
+
+        <div>
+          <p>copy right &#169;</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
